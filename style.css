@@ -1,0 +1,75 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    position: relative;
+    z-index: 1; /* To place the table above the overlay */
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+}
+
+td{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th {
+    background-color: red;
+    color: white;
+    font-family: "Verdana";
+}
+
+
+.photo-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.photo {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.photo img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.backtable{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 790px;
+    height: 650px;
+    margin: auto;
+    margin-top: -650px;
+}
+
+.hero{
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -628px;
+    margin-left: 535px;
+    z-index: 1;
+}
+
+.villian{
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -18px;
+    margin-left: 910px;
+}
